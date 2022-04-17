@@ -1,0 +1,376 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+    @import url("https://fonts.googleapis.com/css?family=Sofia");
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&display=swap');
+
+    html {
+        background: linear-gradient(to right, black, #17262a, black);
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .flex-containerSearch {
+        height: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .flex-container1 {
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+    }
+
+    .flex-container2 {
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+    }
+
+    .flex-container3 {
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+    }
+
+    .flex-container4 {
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+    }
+
+    .flex-container5 {
+        height: 130px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .flex-container6 {
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        bottom: 100px;
+    }
+
+    .flex-container7 {
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+    }
+
+    .flex-container8 {
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+    }
+
+    .flex-items {
+        width: 200px;
+        height: 70px;
+        margin: 30px;
+    }
+
+    .font1 {
+        font-family: 'Red Hat Display', sans-serif;
+        color: #f6f6f6;
+        font-size: 50px;
+    }
+
+    .font2 {
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 25px;
+        color: #f6f6f6;
+        text-align: center;
+    }
+
+    .font3 {
+        font-family: 'Red Hat Display', sans-serif;
+        font-style: italic;
+        font-size: 30px;
+        color: #f6f6f6;
+        text-align: center;
+    }
+
+    .font4 {
+        font-family: 'Red Hat Display', sans-serif;
+        font-style: italic;
+        font-size: 25px;
+        color: #f6f6f6;
+        text-align: center;
+    }
+
+    .font5 {
+        font-family: 'Red Hat Display', sans-serif;
+        font-style: italic;
+        font-size: 20px;
+        color: #f6f6f6;
+        text-align: left;
+    }
+    .form1 {
+        display: flex;
+        padding-top: 30px;
+        height: 45px;
+    }
+
+    .form2 {
+        display: flex;
+    }
+
+    .images {
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        transition: transform .2s;
+    }
+
+    .images :hover {
+        transform: translateY(-5px);
+        transition: transform .1s ease;
+    }
+
+    .image :active {
+        transform: translateY(0);
+    }
+
+    .button1 {
+        background-color: #17262a;
+        border-radius: none;
+        box-shadow: 4px 6px 17px black;
+        color: #f6f6f6;
+        text-align: center;
+        display: inline-block;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+
+    .button-27 {
+        padding: 0px 100px 0px 100px;
+        appearance: none;
+        background-color: #17262A;
+        border: 2px solid #17262A;
+        border-radius: 15px;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-block;
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: normal;
+        margin: 0;
+        min-height: 60px;
+        min-width: 0;
+        outline: none;
+        padding: 16px 24px;
+        text-align: center;
+        text-decoration: none;
+        transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        width: 100%;
+        will-change: transform;
+    }
+
+    .button-27:disabled {
+        pointer-events: none;
+    }
+
+    .button-27:hover {
+        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+        transform: translateY(-2px);
+    }
+
+    .button-27:active {
+        box-shadow: none;
+        transform: translateY(0);
+    }
+
+    .buttonaddtocart {
+        background: linear-gradient(to left, #212222, #141618);
+        border-radius: none;
+        box-shadow: 4px 6px 17px black;
+        color: #f6f6f6;
+        text-align: center;
+        display: inline-block;
+        font-size: 14px;
+        cursor: pointer;
+        width: 130px;
+        padding: 10px 18px;
+    }
+
+    .footer1 {
+        cursor: pointer;
+        font-size: 20px;
+        font-family: 'Red Hat Display', sans-serif;
+        color: #f6f6f6;
+        text-align: left;
+    }
+
+    .footerColor {
+        background: linear-gradient(to right, black, #17262a, black);
+        border-radius: 30px;
+    }
+
+    .footer1:hover {
+        text-decoration: underline;
+    }
+
+    .fa {
+        padding: 10px;
+        font-size: 17px;
+        width: 20px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+
+    .fa-linkedin {
+        color: white;
+    }
+
+    .fa-facebook {
+        color: white;
+    }
+
+    .fa-instagram {
+        color: white;
+    }
+
+    .fa-github {
+        color: white;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    input[type=text],
+    input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+
+    .button3 {
+        background-color: #17262a;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 20%;
+    }
+
+    .button3:hover {
+        opacity: 0.8;
+    }
+
+    .cancelbtn {
+        width: 100px;
+        padding: 10px 18px;
+        background: linear-gradient(to right, #ed213a, #93291e);
+    }
+
+    .imgcontainer {
+        text-align: center;
+        margin: 24px 0 12px 0;
+        position: relative;
+    }
+
+    img.avatar {
+        width: 40%;
+        border-radius: 50%;
+    }
+
+    .container {
+        padding: 16px;
+    }
+
+    span.psw {
+        float: right;
+        padding-top: 16px;
+    }
+    
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+        padding-top: 60px;
+    }
+
+    .modal-content {
+        background-color: #fefefe;
+        margin: 5% auto 15% auto;
+        border: 1px solid #888;
+        width: 80%;
+    }
+
+    .close {
+        position: absolute;
+        right: 25px;
+        top: 0;
+        color: #000;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: red;
+        cursor: pointer;
+    }
+
+    .search {
+        color: white;
+    }    
+
+    .address {
+        width: 250px;
+        height: 70px;
+    }
+
+    .addressButton {
+        background-color: #17262a;
+        border-radius: none;
+        box-shadow: 4px 6px 17px black;
+        color: #f6f6f6;
+        text-align: center;
+        display: inline-block;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .aboutUs {
+        font-family: 'sofia', sans-serif;
+        font-size: 35px;
+        color: #f6f6f6;
+    }
+
+    .story {
+        font-family: 'Roboto Mono', monospace;
+        color: #f6f6f6;
+    }
+
+    .aboutColor {
+        background-image: linear-gradient(to right, #434343 0%, black 100%);
+    }
